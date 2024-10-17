@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fafafa;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 80px 165px;
+    gap: 64px;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fafafa;
+    gap: 16px;
+}
+.header1 {
+    color: #4D4F62;
+    font-size: 36px;
+    font-weight: 275;
+    letter-spacing: 0.25px;
+}
+.header2{
+    color: #4D4F62;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+
+}
+.header3{
+    width: 540px;
+    color: #4D4F62;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.104px;
+}
+.bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    height: 250px;
+    width: 350px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main1 {
+    color: #4D4F62;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sec1 {
+    color: #4D4F62;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    width: 286px;
+
+}
+.pic1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 286px;
+}
+.picture1{
+    width: 64px;
+    height: 64px;
+    margin-right: 32px;
+
+}
+.box2-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+    width: 350px;
+    height: 530px;
+    background-color: #fafafa;
+    gap: 30px;
+}
+#shadow1{
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50), 0px -4px #44D3D2;
+}
+#shadow2{
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50), 0px -4px #EA5454;
+}
+#shadow3{
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50), 0px -4px #FCAE4A;
+}
+#shadow4{
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50), 0px -4px #549EF2;
+} 
